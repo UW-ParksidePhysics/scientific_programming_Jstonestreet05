@@ -1,17 +1,17 @@
 Partner:
 
 What Went Well
----
+The assignment as a whole
 
 
 What Would Make Next Time 1% Better
----
-* Focus:
 
-* Communication:
+* Focus: No issues
 
-* Pacing:
+* Communication: No issues
 
-* Division of responsibility
+* Pacing: Going slightly faster
 
-* Code quality:
+* Division of responsibility: equal division
+
+* Code quality: Some commands were not entered correctly the first time
