@@ -1,1 +1,24 @@
-
+(venv) root@deepnote:~/work # pwd
+/root/work
+(venv) root@deepnote:~/work # ls
+example.txt  scientific_programming_Jstonestreet05
+(venv) root@deepnote:~/work # cd scientific_programming
+bash: cd: scientific_programming: No such file or directory
+(venv) root@deepnote:~/work # cd scientific_programming_Jstonestreet05
+(venv) root@deepnote:~/work/scientific_programming_Jstonestreet05 # pwd
+/root/work/scientific_programming_Jstonestreet05
+(venv) root@deepnote:~/work/scientific_programming_Jstonestreet05 # cd /root/work
+(venv) root@deepnote:~/work # pwd
+/root/work
+(venv) root@deepnote:~/work # cd .git
+bash: cd: .git: No such file or directory
+(venv) root@deepnote:~/work # cd scientific_programming_Jstonestreet05
+(venv) root@deepnote:~/work/scientific_programming_Jstonestreet05 # ls
+command-line  python  README.md
+(venv) root@deepnote:~/work/scientific_programming_Jstonestreet05 # pwd
+/root/work/scientific_programming_Jstonestreet05
+(venv) root@deepnote:~/work/scientific_programming_Jstonestreet05 # ls
+command-line  python  README.md
+(venv) root@deepnote:~/work/scientific_programming_Jstonestreet05 # cd /root/work
+(venv) root@deepnote:~/work # ^C
+(venv) root@deepnote:~/work # 
