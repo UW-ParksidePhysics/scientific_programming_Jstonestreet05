@@ -1,1 +1,10 @@
-
+{
+  "id": "sun",
+  "name": "Sun",
+  "type": "star",
+  "source": "local",
+  "circumference_km": 4374000,
+  "star_type": "G2V",
+  "composition": "Hydrogen, Helium (trace heavier elements)",
+  "age_gyr": 4.603
+}
