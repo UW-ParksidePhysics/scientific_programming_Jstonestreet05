@@ -108,3 +108,65 @@
 # 4) Return results (arrays, figure objects) instead of printing everything
 #
 # Keep plotting separate from physics/math wherever practical.
+
+"""
+solar_system.py
+
+Single-file implementation of the Solar System interactive app.
+
+What this module does
+- Loads authoritative JSON files from project/data/planets.
+- Loads user-authored Markdown pages from project/data/facts.
+- Provides a simple cached fetcher stub for authoritative APIs (writes to project/data/cache).
+- Builds Plotly figures for three screens: inner, outer, trans-Neptunian.
+- Creates a Dash app with navigation, clickable markers, and detail pages.
+- Keeps heavy imports inside functions to avoid side effects at import time.
+
+Run
+- From repository root:
+    python -m project.solar_system
+"""
+# 1) Standard library
+from __future__ import annotations
+from pathlib import Path
+from typing import Dict, Any, Optional
+import json
+import time
+
+# 2) Third-party
+# Keep heavy UI imports inside functions to avoid import-time side effects.
+
+# 3) Local constants (lightweight)
+PROJECT_DIR = Path(__file__).resolve().parent
+DATA_DIR = PROJECT_DIR / "data"
+PLANETS_DIR = DATA_DIR / "planets"
+FACTS_DIR = DATA_DIR / "facts"
+CACHE_DIR = DATA_DIR / "cache"
+CACHE_DIR.mkdir(parents=True, exist_ok=True)
+
+# -------------------------
+# Data loading and schema
+# -------------------------
+def read_body_json(body_id: str) -> Dict[str, Any]:
+    """
+    Load authoritative JSON for a body.
+
+    Parameters
+    ----------
+    body_id : str
+        Unique id/slug for the body (e.g., "mars").
+
+    Returns
+    -------
+    dict
+        Parsed JSON dictionary.
+
+    Raises
+    ------
+    FileNotFoundError
+        If the JSON file does not exist.
+    """
+    path = PLANETS_DIR / f"{body_id}.json"
+    with open(path, "r", encoding="utf-8") as fh:
+        return json.load(fh)
+
