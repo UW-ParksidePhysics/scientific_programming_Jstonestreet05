@@ -1,0 +1,18 @@
+{
+  "id": "uranus",
+  "name": "Uranus",
+  "type": "planet",
+  "source": "local",
+  "distance_au": 19.201,
+  "planet_type": "ice_giant",
+  "composition": "Hydrogen, Helium, water/ammonia/ methane ices",
+  "circumference_km": 159354,
+  "mass_kg": 8.6810e25,
+  "atmosphere": { "composition": "H2,He,CH4 (gives blue-green color)", "pressure_pa": null },
+  "orbit_type": "prograde",
+  "orbital_period_days": 30685.4,
+  "rotation_period_hours": -17.24,
+  "moon_count": 27,
+  "notable_moons": "Titania, Oberon, Umbriel",
+  "rings": { "composition": "dark particles; ice/rock", "radius_km": 51000 }
+}
