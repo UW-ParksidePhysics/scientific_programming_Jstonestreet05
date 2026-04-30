@@ -1,0 +1,9 @@
+{
+  "id": "voyager_1",
+  "name": "Voyager 1",
+  "type": "probe",
+  "source": "local",
+  "launch_date": "1977-09-05",
+  "distance_au": 159.0,
+  "projected_lifespan_years": 50
+}
