@@ -1,0 +1,18 @@
+{
+  "id": "neptune",
+  "name": "Neptune",
+  "type": "planet",
+  "source": "local",
+  "distance_au": 30.047,
+  "planet_type": "ice_giant",
+  "composition": "Hydrogen, Helium, water/ammonia/methane ices",
+  "circumference_km": 154704,
+  "mass_kg": 1.02413e26,
+  "atmosphere": { "composition": "H2,He,CH4 (trace)", "pressure_pa": null },
+  "orbit_type": "prograde",
+  "orbital_period_days": 60190.03,
+  "rotation_period_hours": 16.11,
+  "moon_count": 14,
+  "notable_moons": "Triton, Proteus, Nereid",
+  "rings": { "composition": "dark dust and ice", "radius_km": 62000 }
+}
