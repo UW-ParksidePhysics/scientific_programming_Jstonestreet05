@@ -247,14 +247,6 @@ def fetch_and_cache(endpoint_name: str, fetcher_callable) -> dict:
     # final fallback: empty dict
     return {}
 
-# Example fetcher callable you can replace with real NASA calls
-def example_nasa_fetcher_stub() -> dict:
-    """
-    Placeholder fetcher that simulates an API response.
-    Replace with real requests.get calls as needed.
-    """
-    return {"note": "This is a stub. Replace with real API call and API key."}
-
 # -------------------------
 # Utility computations
 # -------------------------
