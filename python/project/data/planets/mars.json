@@ -1,0 +1,18 @@
+{
+  "id": "mars",
+  "name": "Mars",
+  "type": "planet",
+  "source": "local",
+  "distance_au": 1.523,
+  "planet_type": "terrestrial",
+  "composition": "silicate rock; iron core",
+  "circumference_km": 21344,
+  "mass_kg": 6.4171e23,
+  "atmosphere": { "composition": "CO2,N2,Ar,trace O2", "pressure_pa": 610 },
+  "orbit_type": "prograde",
+  "orbital_period_days": 686.98,
+  "rotation_period_hours": 24.6229,
+  "moon_count": 2,
+  "notable_moons": "Phobos, Deimos",
+  "rings": null
+}
