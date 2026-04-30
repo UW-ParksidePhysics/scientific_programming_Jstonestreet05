@@ -1,0 +1,18 @@
+{
+  "id": "mercury",
+  "name": "Mercury",
+  "type": "planet",
+  "source": "local",
+  "distance_au": 0.387,
+  "planet_type": "terrestrial",
+  "composition": "silicate rock; large iron core",
+  "circumference_km": 15329,
+  "mass_kg": 3.3011e23,
+  "atmosphere": null,
+  "orbit_type": "prograde",
+  "orbital_period_days": 87.969,
+  "rotation_period_hours": 1407.6,
+  "moon_count": 0,
+  "notable_moons": "",
+  "rings": null
+}
