@@ -1,0 +1,18 @@
+{
+  "id": "pluto",
+  "name": "Pluto",
+  "type": "dwarf_planet",
+  "source": "local",
+  "distance_au": 39.48,
+  "planet_type": "dwarf",
+  "composition": "rock and ice",
+  "circumference_km": 7370,
+  "mass_kg": 1.303e22,
+  "atmosphere": { "composition": "N2,CH4,CO (thin, variable)", "pressure_pa": 1e-2 },
+  "orbit_type": "prograde (highly elliptical, inclined)",
+  "orbital_period_days": 90560,
+  "rotation_period_hours": -153.3,
+  "moon_count": 5,
+  "notable_moons": "Charon, Nix, Hydra",
+  "rings": null
+}
