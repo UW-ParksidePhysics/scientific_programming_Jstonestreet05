@@ -144,6 +144,23 @@ FACTS_DIR = DATA_DIR / "facts"
 CACHE_DIR = DATA_DIR / "cache"
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
+# Resolve project directory robustly for Deepnote + local execution
+try:
+    PROJECT_DIR = Path(__file__).resolve().parent
+except NameError:
+    # __file__ is not defined (Deepnote notebooks)
+    PROJECT_DIR = Path("/work/scientific_programming_Jstonestreet05/python/project")
+
+# If Deepnote rewrites __file__ to something incorrect, detect and correct it
+if not (PROJECT_DIR / "data").exists():
+    PROJECT_DIR = Path("/work/scientific_programming_Jstonestreet05/python/project")
+
+DATA_DIR = PROJECT_DIR / "data"
+PLANETS_DIR = DATA_DIR / "planets"
+FACTS_DIR = DATA_DIR / "facts"
+CACHE_DIR = DATA_DIR / "cache"
+CACHE_DIR.mkdir(parents=True, exist_ok=True)
+
 # -------------------------
 # Data loading and schema
 # -------------------------
