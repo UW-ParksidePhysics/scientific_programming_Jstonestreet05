@@ -1,0 +1,18 @@
+{
+  "id": "jupiter",
+  "name": "Jupiter",
+  "type": "planet",
+  "source": "local",
+  "distance_au": 5.204,
+  "planet_type": "gas_giant",
+  "composition": "Hydrogen, Helium, trace heavier elements",
+  "circumference_km": 439264,
+  "mass_kg": 1.89813e27,
+  "atmosphere": { "composition": "H2,He,CH4,NH3 (trace)", "pressure_pa": null },
+  "orbit_type": "prograde",
+  "orbital_period_days": 4332.59,
+  "rotation_period_hours": 9.925,
+  "moon_count": 79,
+  "notable_moons": "Io, Europa, Ganymede, Callisto",
+  "rings": { "composition": "dust; small particles", "radius_km": 70000 }
+}
