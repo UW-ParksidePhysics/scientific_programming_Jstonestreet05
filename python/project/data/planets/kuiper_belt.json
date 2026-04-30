@@ -1,0 +1,8 @@
+{
+  "id": "kuiper_belt",
+  "name": "Kuiper Belt",
+  "type": "belt",
+  "source": "local",
+  "notable_objects": "Pluto, Eris, Haumea, Makemake",
+  "mass_kg": 1.5e22
+}
