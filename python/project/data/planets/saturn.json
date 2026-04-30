@@ -1,0 +1,18 @@
+{
+  "id": "saturn",
+  "name": "Saturn",
+  "type": "planet",
+  "source": "local",
+  "distance_au": 9.582,
+  "planet_type": "gas_giant",
+  "composition": "Hydrogen, Helium, trace heavier elements",
+  "circumference_km": 365882,
+  "mass_kg": 5.6834e26,
+  "atmosphere": { "composition": "H2,He,CH4 (trace)", "pressure_pa": null },
+  "orbit_type": "prograde",
+  "orbital_period_days": 10759.22,
+  "rotation_period_hours": 10.656,
+  "moon_count": 82,
+  "notable_moons": "Titan, Rhea, Iapetus",
+  "rings": { "composition": "water ice, rock", "radius_km": 140000 }
+}
