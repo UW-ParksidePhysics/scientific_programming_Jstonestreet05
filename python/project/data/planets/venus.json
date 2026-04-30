@@ -1,0 +1,18 @@
+{
+  "id": "venus",
+  "name": "Venus",
+  "type": "planet",
+  "source": "local",
+  "distance_au": 0.723,
+  "planet_type": "terrestrial",
+  "composition": "silicate rock; iron core",
+  "circumference_km": 38025,
+  "mass_kg": 4.8675e24,
+  "atmosphere": { "composition": "CO2,N2,trace gases", "pressure_pa": 9200000 },
+  "orbit_type": "prograde",
+  "orbital_period_days": 224.701,
+  "rotation_period_hours": -5832.5,
+  "moon_count": 0,
+  "notable_moons": "",
+  "rings": null
+}
