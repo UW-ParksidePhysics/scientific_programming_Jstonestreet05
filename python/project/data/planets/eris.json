@@ -1,0 +1,18 @@
+{
+  "id": "eris",
+  "name": "Eris",
+  "type": "dwarf_planet",
+  "source": "local",
+  "distance_au": 67.78,
+  "planet_type": "dwarf",
+  "composition": "rock and ice",
+  "circumference_km": 7308,
+  "mass_kg": 1.66e22,
+  "atmosphere": null,
+  "orbit_type": "prograde (highly elliptical, inclined)",
+  "orbital_period_days": 203600,
+  "rotation_period_hours": null,
+  "moon_count": 1,
+  "notable_moons": "Dysnomia",
+  "rings": null
+}
