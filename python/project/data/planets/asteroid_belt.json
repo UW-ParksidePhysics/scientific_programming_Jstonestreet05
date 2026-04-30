@@ -1,0 +1,8 @@
+{
+  "id": "asteroid_belt",
+  "name": "Asteroid Belt",
+  "type": "belt",
+  "source": "local",
+  "notable_objects": "Ceres, Vesta, Pallas, Hygiea",
+  "mass_kg": 3.0e21
+}
