@@ -170,3 +170,19 @@ def read_body_json(body_id: str) -> Dict[str, Any]:
     with open(path, "r", encoding="utf-8") as fh:
         return json.load(fh)
 
+def load_all_bodies() -> Dict[str, Dict[str, Any]]:
+    """
+    Load all JSON files from project/data/planets.
+
+    Returns
+    -------
+    dict
+        Mapping body_id -> metadata dict.
+    """
+    bodies: Dict[str, Dict[str, Any]] = {}
+    for p in PLANETS_DIR.glob("*.json"):
+        with open(p, "r", encoding="utf-8") as fh:
+            data = json.load(fh)
+            bodies[data["id"]] = data
+    return bodies
+
